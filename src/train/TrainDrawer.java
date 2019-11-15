@@ -81,7 +81,7 @@ public class TrainDrawer {
      * @param y The y origin
      */
     private void drawEngine(double x, double y) {
-        drawCarFrame(x, y, Color.BLACK);
+//        drawCarFrame(x, y, Color.BLACK);
         drawSmokestack(x, y);
         drawEngineCab(x, y);
         drawCowcatcher(x, y);
@@ -127,7 +127,7 @@ public class TrainDrawer {
 
     /* Draws a boxcar in the specified color */
     private void drawBoxcar(double x, double y, Color color) {
-        drawCarFrame(x, y, color);
+//        drawCarFrame(x, y, color);
         double xRight = x + CONNECTOR + CAR_WIDTH / 2;
         double xLeft = xRight - DOOR_WIDTH;
         double yDoor = y - CAR_BASELINE - DOOR_HEIGHT;
@@ -137,7 +137,7 @@ public class TrainDrawer {
 
     /* Draws a red caboose */
     private void drawCaboose(double x, double y) {
-        drawCarFrame(x,y, Color.RED);
+//        drawCarFrame(x,y, Color.RED);
         drawCupola(x,y);
     }
 
